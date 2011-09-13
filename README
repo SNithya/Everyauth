@@ -1,0 +1,31 @@
+Authentication and authorization (password, facebook, & more) for your node.js Connect and Express apps.
+
+So far, everyauth enables you to login via:
+
+-password
+-OpenId                                           
+   -Google Hybrid                         
+-OAuth
+  -twitter
+  -linkedin
+  -yahoo
+  -readability                             
+  -dropbox                                    
+  -justin.tv                                 
+  -vimeo                                 
+  -tumblr
+-OAuth2
+  -facebook
+  -github
+  -instagram
+  -foursquare
+  -google
+  -gowalla                                    
+-box (Box.net)
+-LDAP (experimental; not production-tested)
+
+everyauth is:
+
+Modular - We have you covered with Facebook and Twitter OAuth logins, basic login/password support, and modules coming soon for beta invitation support and more.
+Easily Configurable - everyauth was built with powerful configuration needs in mind. Configure an authorization strategy in a straightforward, easy-to-read & easy-to-write approach, with as much granularity as you want over the steps and logic of your authorization strategy.
+Idiomatic - The syntax for configuring and extending your authorization strategies are idiomatic and chainable.
